@@ -242,4 +242,4 @@ Multiple sensor support.\
 SD card data backup.
 
 # Author
-POREDDY ARAVIND REDDY
+PUDI DURGA ABHINAV SAI
