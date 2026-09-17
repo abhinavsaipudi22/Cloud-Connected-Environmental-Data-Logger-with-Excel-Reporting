@@ -259,7 +259,7 @@ while((i<4)&&(time<200))
 
 	string_lcd("AT+CWJAP");
 	delay_ms(1000);
-	string_uart("AT+CWJAP=\"Aravind\",\"12345678\"\r\n");
+	string_uart("AT+CWJAP=\"moto g85 5G\",\"123456789\"\r\n");
 	i=0;memset(buff,'\0',200);
 
 //	while(i<4);
@@ -374,7 +374,7 @@ if(strstr(buff,"CONNECT") || strstr(buff,"ALREADY CONNECTED"))
 		delay_ms(500);
 		if(field==1)
 		{
-			string_uart("GET /update?api_key=GJSB2S6GW4IVHBS9&field1=");
+			string_uart("GET /update?api_key=B5EHEM6FKQQNIERQ&field1=");
 			cmd_lcd(0x01);
 			cmd_lcd(0x80);
 			string_lcd("uploading temp..");
@@ -382,7 +382,7 @@ if(strstr(buff,"CONNECT") || strstr(buff,"ALREADY CONNECTED"))
 
 		else if(field==2)
 		{
-	string_uart("GET /update?api_key=GJSB2S6GW4IVHBS9&field2=");//LUCKY API KEY
+	string_uart("GET /update?api_key=B5EHEM6FKQQNIERQ&field2=");//LUCKY API KEY
 		cmd_lcd(0x01);
 	
                cmd_lcd(0x80);
@@ -395,7 +395,7 @@ if(strstr(buff,"CONNECT") || strstr(buff,"ALREADY CONNECTED"))
 
 		else if(field==3)
 		{
-	string_uart("GET /update?api_key=GJSB2S6GW4IVHBS9&field3=");
+	string_uart("GET /update?api_key=B5EHEM6FKQQNIERQ&field3=");
 				  	  cmd_lcd(0x01);
              cmd_lcd(0x80);
               string_lcd("uploading smoke..");
