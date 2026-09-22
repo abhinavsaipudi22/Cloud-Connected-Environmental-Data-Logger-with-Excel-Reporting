@@ -13,6 +13,7 @@ Cloud data can be exported to Excel for reports and analysis.
 # 📊 Project Block Diagram
 
 <img width="1043" height="697" alt="image" src="https://github.com/user-attachments/assets/9497861e-855e-495f-bcc2-1dfbd1059368" />
+
 # Hardware Components Used
 LPC2148 ARM7 Microcontroller\
 ESP-01 Wi-Fi Module\
