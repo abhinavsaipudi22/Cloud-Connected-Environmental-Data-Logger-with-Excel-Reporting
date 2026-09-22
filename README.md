@@ -12,4 +12,19 @@ EEPROM (AT24C256) stores the temperature set point.\
 Cloud data can be exported to Excel for reports and analysis.\
 # 📊 Project Block Diagram
 
-<img width="1043" height="697" alt="image" src="https://github.com/user-attachments/assets/9497861e-855e-495f-bcc2-1dfbd1059368" />
+<img width="1043" height="697" alt="image" src="https://github.com/user-attachments/assets/9497861e-855e-495f-bcc2-1dfbd1059368" />\
+# Hardware Components Used
+LPC2148 ARM7 Microcontroller\
+ESP-01 Wi-Fi Module\
+LM35 Temperature Sensor\
+MQ-2 Gas Sensor\
+AT24C256 EEPROM (I2C)\
+16x2 LCD Display\
+Buzzer/LED\
+Power Supply (3.3V / 5V)\
+Keypad(4x4)\
+# Software Used
+Keil µVision\
+Flash Magic\
+Embedded C Programming\
+ThingSpeak Cloud Platform\
