@@ -9,4 +9,7 @@ ESP-01 Wi-Fi module for cloud connectivity.\
 Uploads sensor data to ThingSpeak.\
 Buzzer/LED alert when gas is detected or temperature exceeds the set limit.\
 EEPROM (AT24C256) stores the temperature set point.\
-Cloud data can be exported to Excel for reports and analysis.
+Cloud data can be exported to Excel for reports and analysis.\
+# 📊 Project Block Diagram
+
+<img width="1043" height="697" alt="image" src="https://github.com/user-attachments/assets/9497861e-855e-495f-bcc2-1dfbd1059368" />
