@@ -23,6 +23,7 @@ AT24C256 EEPROM (I2C)\
 Buzzer/LED\
 Power Supply (3.3V / 5V)\
 Keypad(4x4)
+
 # Software Used
 Keil µVision\
 Flash Magic\
